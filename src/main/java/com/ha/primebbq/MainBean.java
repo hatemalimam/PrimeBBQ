@@ -5,6 +5,7 @@
  */
 package com.ha.primebbq;
 
+import java.io.Serializable;
 import java.util.Map;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
@@ -16,7 +17,7 @@ import javax.faces.context.FacesContext;
  */
 @ManagedBean
 @ViewScoped
-public class MainBean {
+public class MainBean implements Serializable{
 
     /**
      * Creates a new instance of MainBean
